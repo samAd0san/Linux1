@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# FILENAME IN SYSTEM useradd.sh -> loops (directory)
 # SCRIPT TO DELETE A USER
 # 1. USERINPUT
 
@@ -24,7 +25,9 @@ if [ $? -ne 0 ]; then
         exit
 else
         echo "Username: $MYUSER"
+        # LOCKING THE USER
         /usr/sbin/usermod -L $MYUSER
+        # DELTEING THE USER ENTIRELY
         /usr/sbin/userdel -r $MYUSER
         echo "User deleted successfully"
 
