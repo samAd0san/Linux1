@@ -2,7 +2,7 @@
 # shabang line
 #CREATING A USER
 
-# # The File pwd -> /home/ec2-user/loops/useradd.sh (File name: useradd.sh)
+# # The File pwd -> /home/ec2-user/loops/useradd.sh (File name: useradd.sh/createuser.sh)
 # GIVING USER INPUT
 MYUSER=$1
 
