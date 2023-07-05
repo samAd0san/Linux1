@@ -29,5 +29,6 @@ fi
 
 for MYUSER in `cat $MYLIST`
 do
+  # # HERE WE ARE USING THE 'Linux2.txt' file and iterate each user throw this file
   ./userdel.sh $MYUSER
 done
