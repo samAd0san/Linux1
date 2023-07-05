@@ -23,5 +23,6 @@ fi
 
 for MYUSER in `cat $MYLIST`
 do
+        # HERE WE ARE USING THE 'Linux1.txt' file and iterate each user throw this file
         ./createuser.sh $MYUSER
 done
