@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# FILENAME IN SYSTEM useradd.sh -> loops (directory)
+# # The File pwd -> /home/ec2-user/scripts/userdel.sh (File name: userdel.sh)
 # SCRIPT TO DELETE A USER
 # 1. USERINPUT
 
