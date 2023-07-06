@@ -10,5 +10,14 @@
 # calling the function from 'funfile'
 goodmorning
 
+echo 
+
 # calling the function from 'funfile'
 takingbkp
+
+O/P
+OHAYO GOZAIMASU
+Todays Date : Thu Jul  6 03:22:33 UTC 2023
+
+Taking backup of  directory
+Backup Successfull
