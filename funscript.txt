@@ -1,0 +1,14 @@
+#!/bin/bash
+#THIS IS A SCRIPT WHERE WE CALL AND DEFINE THE FUNCTION
+
+# SHORT PATH METHOD (IT IS USE TO LOCATE THE FILE WHICH FUNCTION WE ARE USING)
+#. funfile
+
+# OR WE CAN ALSO USE LONG PATH METHOD
+. /home/ec2-user/script/funfile
+
+# calling the function from 'funfile'
+goodmorning
+
+# calling the function from 'funfile'
+takingbkp
