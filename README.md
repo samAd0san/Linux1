@@ -1,3 +1,5 @@
+# Check out the master branch to view the different files related to bash script
+
 1.	TO CREATE A USER IN LINUX OPERATING SYSTEM
 	
 	RULES :
